@@ -33,12 +33,13 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "A Circle with radius = "
+        return "A Circle with Radius = "
                 + getRadius()
-                + " has area = "
+                + " has Area = "
                 + getArea()
-                + " and perimeter = "
+                + " and Perimeter = "
                 + getPerimeter()
-                + " which is a subclass of " + super.toString();
+                + " ,Which is a Subclass of "
+                + super.toString();
     }
 }
